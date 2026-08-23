@@ -8,7 +8,6 @@ use Filament\Pages\Page;
 
 final class Overview extends Page
 {
-    protected static string $view = 'search-filament::overview';
+    protected string $view = 'search-filament::overview';
     protected static ?string $title = 'Search';
 }
-
