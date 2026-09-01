@@ -13,4 +13,3 @@ final class SearchFilamentServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'search-filament');
     }
 }
-
